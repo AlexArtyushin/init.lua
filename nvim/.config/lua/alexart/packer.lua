@@ -35,4 +35,6 @@ return require('packer').startup(function(use)
             {'L3MON4D3/LuaSnip'},     -- Required
         }
     }
+
+    use('ThePrimeagen/vim-be-good')
 end)
