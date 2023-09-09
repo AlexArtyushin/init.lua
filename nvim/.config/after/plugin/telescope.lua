@@ -19,6 +19,7 @@ telescope.setup {
     },
     pickers = {
         find_files = {
+            -- `hidden = true` will show .git folder, so we pass ripgrep args directly
             find_command = { "rg", "--files", "--hidden", "--glob", "!**/.git/*" }
         }
     }
